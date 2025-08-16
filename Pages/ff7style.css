@@ -1,276 +1,263 @@
 * {
-margin: 0;
+	margin: 0;
 }
 
 header {
-    background: url(../../FF7/Images/background.png);
-    background-size: cover;
-    background-position: center;
-    height: 90px;
-    padding: 50px;
-    border-radius: 3%;
+	background: url(../../FF7/Images/background.png);
+	background-size: cover;
+	background-position: center;
+	height: 90px;
+	padding: 50px;
+	border-radius: 3%;
 }
 
 header a {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(66, 13, 4);    
-    background-color: rgb(247, 244, 247);
-    opacity: 0.6;
-    border-radius: 30px;
-    padding: 15px;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: rgb(66, 13, 4);    
+	background-color: rgb(247, 244, 247);
+	opacity: 0.6;
+	border-radius: 30px;
+	padding: 15px;
 }
 
 header a:hover {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(66, 13, 4);
-    background-color: rgb(194, 228, 180);
-    font-weight: bolder;
-    text-decoration: underline;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: rgb(66, 13, 4);
+	background-color: rgb(194, 228, 180);
+	font-weight: bolder;
+	text-decoration: underline;
 }
 
 nav {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    font-size: 1.8em;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 1.8em;
 }
 
 .raccourcis img {
-    margin-left: 250px;
-    width: 100px;
+	margin-left: 250px;
+	width: 100px;
 }
 
 body {
-    font-family: 'Manrope', sans-serif;
-    font-size: 1em;
-    background: #086185;
-    background: linear-gradient(162deg, rgba(8, 97, 133, 1) 1%, rgba(87, 199, 133, 1) 100%, rgba(237, 221, 83, 1) 100%);
-    margin: 10px;
-    padding: 10px;
+	font-family: 'Manrope', sans-serif;
+	font-size: 1em;
+	background: #086185;
+	background: linear-gradient(162deg, rgba(8, 97, 133, 1) 1%, rgba(87, 199, 133, 1) 100%, rgba(237, 221, 83, 1) 100%);
+	margin: 10px;
+	padding: 10px;
 }
 
 h1 {
-    font-size: 2.5em;
-    color: rgb(217, 214, 198);
-    margin: 80px 20px 40px 40px;
-    text-align: center;
-    text-decoration: underline;
-    font-family:'Courier New', Courier, monospace;
+	font-size: 2.5em;
+	color: rgb(217, 214, 198);
+	margin: 80px 20px 40px 40px;
+	text-align: center;
+	text-decoration: underline;
+	font-family:'Courier New', Courier, monospace;
 }
 
 h2 {
-    font-size: 2em;
-    color: rgb(66,13,4);
-    margin: 80px 20px 40px 40px;
-    font-family:'Courier New', Courier, monospace;
+	font-size: 2em;
+	color: rgb(66,13,4);
+	margin: 80px 20px 40px 40px;
+	font-family:'Courier New', Courier, monospace;
 }
 
 p {
-    font-size: 1.3em;
-    margin: 30px;
-    margin-top: 30px;
-    color: azure;
-    font-weight: 800;
+	font-size: 1.3em;
+	margin: 30px;
+	margin-top: 30px;
+	color: azure;
+	font-weight: 800;
 }
 
 img {
-    width: 25%;
-    margin: 20px;
-    text-align: justify;
-    padding: 16px;
-    background-color: none;
+	width: 25%;
+	margin: 20px;
+	text-align: justify;
+	padding: 16px;
+	background-color: none;
 }
-
-.caracs {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    margin-left: 60px;
-}
-
-
 
 .cloudcaracs {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    margin-left: 60px;
-    background: url(../../FF7/Images/cloud_back.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+	margin: 60px;
+	background: url(../../FF7/Images/cloud_back.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 
 .cloudcaracs p {
-    color: azure;
-    font-size: 1.4em;
+	color: azure;
+	font-size: 1.4em;
 }
 
 .tifacaracs {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    margin-left: 60px;
-    background: url(../../FF7/Images/tifa_back.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;    
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+	margin: 60px;
+	background: url(../../FF7/Images/tifa_back.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;    
 }
 
 .tifacaracs p {
-    color: azure;
-    font-size: 1.4em;
+	color: azure;
+	font-size: 1.4em;
 }
 
 .aeriscaracs {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    margin-left: 60px;
-    background: url(../../FF7/Images/aeris_back.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;    
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+	margin: 60px;
+	background: url(../../FF7/Images/aeris_back.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;    
 }
 
 .aeriscaracs p {
-    color: azure;
-    font-size: 1.4em;
+	color: azure;
+	font-size: 1.4em;
 }
 
 .barretcaracs {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    margin-left: 60px;
-    background: url(../../FF7/Images/barret_back.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;    
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+	margin: 60px;
+	background: url(../../FF7/Images/barret_back.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;    
 }
 
 .barretcaracs p {
-    color: azure;
-    font-size: 1.4em;
+	color: azure;
+	font-size: 1.4em;
 }
 
 .nanakicaracs {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    margin-left: 60px;
-    background: url(../../FF7/Images/nanaki_back.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;    
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+	margin: 60px;
+	background: url(../../FF7/Images/nanaki_back.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;    
 }
 
 .nanakicaracs p {
-    color: azure;
-    font-size: 1.4em;
+	color: azure;
+	font-size: 1.4em;
 }
 
 .yuffiecaracs {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    margin-left: 60px;
-    background: url(../../FF7/Images/yuffie_back.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;    
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+	margin: 60px;
+	background: url(../../FF7/Images/yuffie_back.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;    
 }
 
 .yuffiecaracs p {
-    color: azure;
-    font-size: 1.4em;
+	color: azure;
+	font-size: 1.4em;
 }
 
 .caitsithcaracs {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    margin-left: 60px;
-    background: url(../../FF7/Images/caitsith_back.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;    
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+	margin: 60px;
+	background: url(../../FF7/Images/caitsith_back.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;    
 }
 
 .caitsithcaracs p {
-    color: azure;
-    font-size: 1.4em;
+	color: azure;
+	font-size: 1.4em;
 }
 
 ul {
-    margin: auto;
-    color: azure;
-    font-size: 1.3em;
+	margin: auto;
+	color: azure;
+	font-size: 1.3em;
 }
 
 table {
-    border-spacing: 10px;
-    margin: auto;
-    margin-top: 40px;
-    color: azure;
+	border-spacing: 10px;
+	margin: auto;
+	margin-top: 40px;
+	color: azure;
 }
 
 .t1 td {
-    border: solid;
-    border-radius: 5px;
-    text-align: center;
-    padding: 5px;
+	border: solid;
+	border-radius: 5px;
+	text-align: center;
+	padding: 5px;
 }
 
 caption {
-    margin: 25px;
-    font-size: 1.3em;
-    font-style: italic;
-    color: rgb(245, 245, 245);
+	margin: 25px;
+	font-size: 1.3em;
+	font-style: italic;
+	color: rgb(245, 245, 245);
 }
 
 .materia {
-    background: url(../../FF7/Images/materia.png);
-}
-
-.materia {
-    text-align: center;
+	background: url(../../FF7/Images/materia.png);
+	margin: 35px;
+	text-align: center;
 }
 
 .green {
-    color: rgb(0,200,0);
+	color: rgb(0,200,0);
 }
 
 .red {
-    color: rgb(240,0,0);
+	color: rgb(240,0,0);
 }
 
 .blue {
-    color: rgb(0,0,240);
+	color: rgb(0,0,240);
 }
 
 .yellow {
-    color: rgb(240,240,0);
+	color: rgb(240,240,0);
 }
 
 .purple {
-    color: rgb(250,0,250);
+	color: rgb(250,0,250);
 }
 
 .silver {
-    color: silver:
+	color: silver:
 }
 
 .gold {
-    color: gold;
+	color: gold;
 }
 
 .monster {
-    background: url(../../FF7/Images/monster_back.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;    
+	background: url(../../FF7/Images/monster_back.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;    
 }
-
-
