@@ -106,7 +106,7 @@ img {
 	background: url(../../FF7/Images/tifa_back.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: cover;    
+	background-size: cover;
 }
 
 .tifacaracs p {
@@ -122,7 +122,7 @@ img {
 	background: url(../../FF7/Images/aeris_back.png);
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: cover;    
+	background-size: cover;
 }
 
 .aeriscaracs p {
@@ -138,7 +138,7 @@ img {
 	background: url(../../FF7/Images/barret_back.png);
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: cover;    
+	background-size: cover;
 }
 
 .barretcaracs p {
@@ -154,7 +154,7 @@ img {
 	background: url(../../FF7/Images/nanaki_back.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: cover;    
+	background-size: cover;
 }
 
 .nanakicaracs p {
@@ -170,7 +170,7 @@ img {
 	background: url(../../FF7/Images/yuffie_back.png);
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: cover;    
+	background-size: cover;
 }
 
 .yuffiecaracs p {
@@ -186,7 +186,7 @@ img {
 	background: url(../../FF7/Images/caitsith_back.png);
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: cover;    
+	background-size: cover;
 }
 
 .caitsithcaracs p {
@@ -225,6 +225,7 @@ caption {
 	background: url(../../FF7/Images/materia.png);
 	margin: 35px;
 	text-align: center;
+	border-radius: 5%;
 }
 
 .green {
@@ -260,4 +261,17 @@ caption {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;    
+}
+
+
+.ending {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 1.8em;    
+}
+
+.ending img {
+	border-radius: 10%;
 }
