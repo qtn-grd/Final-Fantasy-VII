@@ -36,9 +36,14 @@ nav {
 	font-size: 1.8em;
 }
 
+.raccourcis {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
 .raccourcis img {
-	margin-left: 250px;
-	width: 100px;
+	border: solid black;
 }
 
 body {
@@ -48,6 +53,19 @@ body {
 	background: linear-gradient(162deg, rgba(8, 97, 133, 1) 1%, rgba(87, 199, 133, 1) 100%, rgba(237, 221, 83, 1) 100%);
 	margin: 10px;
 	padding: 10px;
+}
+
+.world {
+	display: flex;
+	justify-content: center;
+}	
+
+.world img {
+	margin: 30px;
+	width: 1400px;
+	border: solid black;
+	padding: 0px;
+	border-radius: 10px;
 }
 
 h1 {
@@ -91,6 +109,9 @@ img {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+	padding: 20px;
+	border: solid black;
+	border-radius: 10px;
 }
 
 .cloudcaracs p {
@@ -107,6 +128,9 @@ img {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+	padding: 20px;
+	border: solid black;
+	border-radius: 10px;
 }
 
 .tifacaracs p {
@@ -123,6 +147,9 @@ img {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+	padding: 20px;
+	border: solid black;
+	border-radius: 10px;
 }
 
 .aeriscaracs p {
@@ -139,6 +166,9 @@ img {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+	padding: 20px;
+	border: solid black;
+	border-radius: 10px;	
 }
 
 .barretcaracs p {
@@ -155,6 +185,9 @@ img {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+	padding: 20px;
+	border: solid black;
+	border-radius: 10px;	
 }
 
 .nanakicaracs p {
@@ -171,6 +204,9 @@ img {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+	padding: 20px;	
+	border: solid black;
+	border-radius: 10px;
 }
 
 .yuffiecaracs p {
@@ -187,6 +223,9 @@ img {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+	padding: 20px;
+	border: solid black;
+	border-radius: 10px;	
 }
 
 .caitsithcaracs p {
@@ -203,7 +242,7 @@ ul {
 table {
 	border-spacing: 10px;
 	margin: auto;
-	margin-top: 40px;
+	margin-top: 20px;
 	color: azure;
 }
 
@@ -226,6 +265,8 @@ caption {
 	margin: 35px;
 	text-align: center;
 	border-radius: 5%;
+	padding: 30px;
+	border: solid black;	
 }
 
 .green {
@@ -260,7 +301,9 @@ caption {
 	background: url(../../FF7/Images/monster_back.png);
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: cover;    
+	background-size: cover;
+	padding: 30px;	
+	border: solid black;
 }
 
 
@@ -270,8 +313,4 @@ caption {
 	align-items: center;
 	justify-content: space-between;
 	font-size: 1.8em;    
-}
-
-.ending img {
-	border-radius: 10%;
 }
