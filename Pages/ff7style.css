@@ -9,6 +9,7 @@ header {
 	height: 90px;
 	padding: 50px;
 	border-radius: 3%;
+	border: solid black;
 }
 
 header a {
@@ -16,6 +17,7 @@ header a {
 	color: rgb(66, 13, 4);    
 	background-color: rgb(247, 244, 247);
 	opacity: 0.6;
+	border: solid black;
 	border-radius: 30px;
 	padding: 15px;
 }
@@ -25,7 +27,6 @@ header a:hover {
 	color: rgb(66, 13, 4);
 	background-color: rgb(194, 228, 180);
 	font-weight: bolder;
-	text-decoration: underline;
 }
 
 nav {
@@ -36,14 +37,28 @@ nav {
 	font-size: 1.8em;
 }
 
+.titre {
+	display: flex;
+	justify-content: center;
+	margin: 50px:
+}
+
+.titre img {
+	max-width: 400px;	
+}
+
 .raccourcis {
 	display: flex;
 	flex-direction: row;
+	justify-content: center; 
 	align-items: center;
+	gap: 20px;
+	margin: 50px;
+	margin-left: 150px;
 }
 
 .raccourcis img {
-	border: solid black;
+	max-width: 250px;	
 }
 
 body {
@@ -98,6 +113,16 @@ img {
 	text-align: justify;
 	padding: 16px;
 	background-color: none;
+}
+
+.discret {
+	opacity: 0.7;
+}
+
+.gold {
+	color: gold;
+	padding: 10px;
+	font-weight: 700;
 }
 
 .cloudcaracs {
@@ -195,25 +220,6 @@ img {
 	font-size: 1.4em;
 }
 
-.yuffiecaracs {
-	display: flex;
-	flex-direction: row;
-	gap: 20px;
-	margin: 60px;
-	background: url(../../FF7/Images/yuffie_back.png);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	padding: 20px;	
-	border: solid black;
-	border-radius: 10px;
-}
-
-.yuffiecaracs p {
-	color: azure;
-	font-size: 1.4em;
-}
-
 .caitsithcaracs {
 	display: flex;
 	flex-direction: row;
@@ -233,8 +239,66 @@ img {
 	font-size: 1.4em;
 }
 
+.cidcaracs {
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+	margin: 60px;
+	background: url(../../FF7/Images/cid_back.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 20px;
+	border: solid black;
+	border-radius: 10px;
+}
+
+.cidcaracs p {
+	color: azure;
+	font-size: 1.4em;
+}
+
+.yuffiecaracs {
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+	margin: 60px;
+	background: url(../../FF7/Images/yuffie_back.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 20px;	
+	border: solid black;
+	border-radius: 10px;
+}
+
+.yuffiecaracs p {
+	color: azure;
+	font-size: 1.4em;
+}
+
+.vincentcaracs {
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+	margin: 60px;
+	background: url(../../FF7/Images/vincent_back.jpg) ;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 20px;
+	border: solid black;
+	border-radius: 10px;
+}
+
+.vincentcaracs p {
+	color: azure;
+	font-size: 1.4em;
+}
+
 ul {
 	margin: auto;
+	padding: 10px;
 	color: azure;
 	font-size: 1.3em;
 }
@@ -293,10 +357,6 @@ caption {
 	color: silver:
 }
 
-.gold {
-	color: gold;
-}
-
 .monster {
 	background: url(../../FF7/Images/monster_back.png);
 	background-repeat: no-repeat;
@@ -313,4 +373,18 @@ caption {
 	align-items: center;
 	justify-content: space-between;
 	font-size: 1.8em;    
+}
+
+.encart {
+	padding: 25px;
+	background-image: linear-gradient(to right bottom, #c3cddd, #959dae, #696f82, #414557, #1d1e30);
+	border: black;
+	border-radius: 15px;
+}
+
+.weapon {
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	width: 110px;
 }
